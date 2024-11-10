@@ -15,7 +15,7 @@ const useTradeData = () => {
           setLoading(false);
         }, 2000);
       } catch (error) {
-        setError(error.response?.data?.message || error.message || "Failed to fetch data");
+        setError("Failed to fetch data");
         setLoading(false);
       }
     };
