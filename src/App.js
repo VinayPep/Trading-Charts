@@ -5,26 +5,6 @@ function App() {
         <div>Test Home</div>
       </header>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   );
 }
 
