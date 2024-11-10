@@ -7,7 +7,11 @@ import prettierConfig from "eslint-config-prettier";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   { files: ["**/*.{js,mjs,cjs,jsx}"] },
-  { languageOptions: { globals: globals.browser } },
+  {
+    languageOptions: {
+      globals: { browser: true, process: "readonly", console: "readonly", localStorage: "readonly", document: "readonly" }
+    }
+  },
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
@@ -39,11 +43,11 @@ export default [
         process: "readonly",
         __dirname: "readonly",
         exports: "readonly",
-        global: "readonly",
-      },
+        global: "readonly"
+      }
     },
     rules: {
       // Node-specific rules here, if any
-    },
+    }
   }
 ];
