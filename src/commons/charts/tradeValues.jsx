@@ -39,7 +39,6 @@ const TradeValues = () => {
     return tradeData.sort((a, b) => a.Year - b.Year);
   }, [tradeData]);
 
-  // Functions to render charts
   const renderBarChart = () => (
     <BarChart data={sortedByTradeValue} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
       <CartesianGrid strokeDasharray="3 3" />
