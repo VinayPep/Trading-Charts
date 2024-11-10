@@ -26,5 +26,24 @@ export default [
       "react/react-in-jsx-scope": "off", // for React 17+
       "react/prop-types": "error"
     }
+  },
+  {
+    files: ["tailwind.config.js", "*.config.js"],
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      globals: {
+        // Node.js specific globals
+        module: "readonly",
+        require: "readonly",
+        process: "readonly",
+        __dirname: "readonly",
+        exports: "readonly",
+        global: "readonly",
+      },
+    },
+    rules: {
+      // Node-specific rules here, if any
+    },
   }
 ];
