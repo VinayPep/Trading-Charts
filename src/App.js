@@ -1,8 +1,10 @@
+import "./styles.css";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>Test Home</div>
+        <div className="">Test Home</div>
       </header>
     </div>
   );
