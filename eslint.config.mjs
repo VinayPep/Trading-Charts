@@ -9,7 +9,7 @@ export default [
   { files: ["**/*.{js,mjs,cjs,jsx}"] },
   {
     languageOptions: {
-      globals: { browser: true, process: "readonly", console: "readonly", localStorage: "readonly", document: "readonly" }
+      globals: { browser: true, process: "readonly", console: "readonly", localStorage: "readonly", document: "readonly", setTimeout: "readonly" }
     }
   },
   pluginJs.configs.recommended,

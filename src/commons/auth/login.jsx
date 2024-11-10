@@ -1,4 +1,4 @@
-import { useAuth } from "./hooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 import { GoogleLogin } from "react-google-login";
 import PropTypes from "prop-types";
 

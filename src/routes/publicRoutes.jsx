@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import PropTypes from "prop-types";
-import { useAuth } from "../commons/auth/hooks/useAuth";
+import { useAuth } from "../hooks/useAuth";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const PublicRoutes = ({ element }) => {

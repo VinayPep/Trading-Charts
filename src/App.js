@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-lg mx-auto">
+    <div>
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route

@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "ReporterISO3": "HRV",
+      "ReporterName": "Croatia",
+      "Year": 2008,
+      "AnnualTradeValue": 28247349.57
+    },
+    {
+      "ReporterISO3": "RUS",
+      "ReporterName": "Russian Federation",
+      "Year": 2006,
+      "AnnualTradeValue": 603101331.07
+    },
+    {
+      "ReporterISO3": "CHN",
+      "ReporterName": "China",
+      "Year": 2018,
+      "AnnualTradeValue": 4988460389.93
+    },
+    {
+      "ReporterISO3": "JPN",
+      "ReporterName": "Japan",
+      "Year": 2021,
+      "AnnualTradeValue": 1514132522.5
+    },
+    {
+      "ReporterISO3": "MEX",
+      "ReporterName": "Mexico",
+      "Year": 2013,
+      "AnnualTradeValue": 759898546.27
+    },
+    {
+      "ReporterISO3": "THA",
+      "ReporterName": "Thailand",
+      "Year": 2013,
+      "AnnualTradeValue": 456910546.33
+    },
+    {
+      "ReporterISO3": "CAN",
+      "ReporterName": "Canada",
+      "Year": 2010,
+      "AnnualTradeValue": 724294040.99
+    },
+    {
+      "ReporterISO3": "BEL",
+      "ReporterName": "Belgium",
+      "Year": 2010,
+      "AnnualTradeValue": 549448490.3
+    }
+  ]
+}

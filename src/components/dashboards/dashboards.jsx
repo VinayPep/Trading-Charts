@@ -1,4 +1,12 @@
+import Navbar from "../navbar/navbar";
+import TradeValues from "../../commons/charts/tradeValues";
 const Dashboards = () => {
-  return <div>This is Dashbaord page</div>;
+  return (
+    <>
+      <Navbar />
+      <TradeValues />
+    </>
+  );
 };
+
 export default Dashboards;
